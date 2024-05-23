@@ -20,10 +20,10 @@ app.post('/gift', (req, res) => {
   // TODO: prove that a name is in the list  ✅
   const isInTheList = isProofVerified;
   if(isInTheList) {
-    res.send("You got a toy robot!");
+    res.send("you got a toy robot! \r\n");
   }
   else {
-    res.send("You are not on the list :(");
+    res.send("you are not on the list :( \r\n");
   }
 });
 
